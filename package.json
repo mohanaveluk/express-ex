@@ -9,7 +9,10 @@
   },
   "author": "",
   "license": "ISC",
-  "denpendencies":{
+  "dependencies":{
     "express":"^4.16.4"
+  },
+  "devDependencies":{
+    "nodeman":"^1.18.10"
   }
 }
