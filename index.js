@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('<h1>Hellp express</h1>');
+    res.send('<h1>Hello express</h1>');
 });
 
 const PORT = process.env.PORT || 5000;
