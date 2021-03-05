@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
 //Home page route
-app.get('/', (req, res)=> res.render('index', {title: 'Add Member App', members}));
+app.get('/', (req, res)=> res.render('index', {title: 'AWS - Add Member App', members}));
 
 
 //Member API routes
